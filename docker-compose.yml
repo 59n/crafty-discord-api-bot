@@ -1,0 +1,22 @@
+version: '3.8'
+
+services:
+  crafty-bot:
+    build: .
+    container_name: crafty-discord-bot
+    restart: unless-stopped
+    env_file:
+      - .env
+    environment:
+      - TZ=Europe/Amsterdam
+    healthcheck:
+      test: pgrep -f "python" > /dev/null || exit 1
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 40s
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "10m"
+        max-file: "3"
