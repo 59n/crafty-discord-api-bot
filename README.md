@@ -48,7 +48,7 @@ Edit `.env` file with your settings:
 
 `DISCORD_TOKEN=your_discord_bot_token_here
 BOT_OWNER_ID=your_discord_user_id_here
-CRAFTY_API_KEY=your_crafty_api_key_herez
+CRAFTY_API_KEY=your_crafty_api_key_here
 CRAFTY_BASE_URL=https://your-crafty-url.com`
 
 ### Getting Your Credentials
