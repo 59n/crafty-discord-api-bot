@@ -85,20 +85,20 @@ CRAFTY_BASE_URL=https://your-crafty-url.com
 
 ## Docker Commands
 
-Start the bot
-docker compose up -d
+Start the bot 
+`docker compose up -d`
 
 View logs
-docker compose logs -f
+`docker compose logs -f`
 
 Restart the bot
-docker compose restart
+`docker compose restart`
 
 Stop the bot
-docker compose down
+`docker compose down`
 
 Rebuild after code changes
-docker compose up -d --build
+`docker compose up -d --build`
 
 ## Troubleshooting
 
