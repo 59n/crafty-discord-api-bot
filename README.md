@@ -24,8 +24,8 @@ A Discord bot to manage your Minecraft servers through Crafty Controller API.
 
 ### 1. Clone the repository
 
-git clone https://github.com/YOUR_USERNAME/crafty-discord-bot.git
-cd crafty-discord-bot
+git clone https://github.com/59n/crafty-discord-api-bot.git
+cd crafty-discord-api-bot
 
 ### 2. Create `.env` file
 
