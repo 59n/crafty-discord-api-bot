@@ -4,6 +4,9 @@ from discord.ui import Modal, TextInput
 import requests
 import os
 from typing import Optional
+from dotenv import load_dotenv
+
+load_dotenv()
 
 # Configuration from environment variables
 API_KEY = os.getenv('CRAFTY_API_KEY')
